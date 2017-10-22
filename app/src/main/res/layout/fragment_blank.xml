@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smd.clientapplication.smd.rootActivity.fragments.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/todayButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/today_title"
+        android:onClick="onChangeDate"/>
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:layout_alignParentBottom="true">
+        <TextView android:text="@string/trip_lenght"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"/>
+        <TextView android:text="@string/trip_time"
+            android:textAlignment="center"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_columnWeight="1"/>
+    </GridLayout>
+    <fragment
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/mapView"
+        android:layout_below="@id/todayButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/gridLayout"/>
+        />
+</RelativeLayout>

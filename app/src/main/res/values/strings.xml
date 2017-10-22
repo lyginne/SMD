@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SMD</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_trips">Поездки</string>
+    <string name="title_consumption">Расход</string>
+    <string name="title_diagnostic">Диагностика</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="today_title">Сегодня</string>
+    <string name="trip_lenght">Длина пути: 17 км</string>
+    <string name="trip_time">Время в пути: 1 час</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consumption_in_city">Расход в городе</string>
+    <string name="nominal">Номинальный</string>
+    <string name="fact_consumption">Фактический</string>
+    <string name="consumption_on_highway">Расход по трассе</string>
+</resources>
